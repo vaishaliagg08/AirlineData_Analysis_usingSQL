@@ -79,7 +79,7 @@ We normalized the data into multiple relational tables in **MySQL** to improve d
 - First Normal Form (1NF): Removed repeating groups and ensured atomic values.
 - Second Normal Form (2NF): Removed partial dependencies by creating separate tables for airlines, cities, and classes.
 - Third Normal Form (3NF): Removed transitive dependencies (ticket prices stored separately from flights).
-### **The normalized database ensures:**
-- **Data Integrity** → Eliminates redundancy and inconsistency.
-- **Flexibility** → Easy to extend with new attributes or entities.
-- **Performance** → Optimized for queries on flights, prices, and availability.
+- **The normalized database ensures:**
+  - **Data Integrity** → Eliminates redundancy and inconsistency.
+  - **Flexibility** → Easy to extend with new attributes or entities.
+  - **Performance** → Optimized for queries on flights, prices, and availability.
